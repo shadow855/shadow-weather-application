@@ -20,4 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 1. I used React.js for making the frontend of the website and OpenWeatherMap wesbite for getting API_KEY for fetching the weather data.
 2. I first designed the functions and methods for fetching the weather data with the help of API.
 3. Then, I created the design to display that data.
-4. I have also used Chakra Toast to handle the errors and to show notifications.
+4. I used Chakra Toast to handle the errors and to show notifications.
+5. I used stackoverflow, to resolve some of the errors I faced while making the website.
+6. I used VS Code for creating the website.
