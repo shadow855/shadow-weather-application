@@ -349,7 +349,7 @@ const Weather = () => {
                                 >
 
                                     <Image src={image} />
-                                    <Text fontSize={50} fontWeight={500}>{temperature} &deg;C</Text>
+                                    <Text fontSize={{ base: '40px', md: '50px' }} fontWeight={500}>{temperature} &deg;C</Text>
                                 </Box>
 
                                 {/* Location name and weather description */}
