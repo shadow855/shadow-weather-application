@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Instructions on how to run the application locally.
+Live Link of the Application-> https://shadow-weather-application.onrender.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Just pull the repository with git and open the code on VS Code and run the code with ### `npm start`.
 
-## Available Scripts
+## In case of some error (May be some installed packages won't work, so you need to reinstall them)
+1. For Chakra UI-> npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+2. For Chakra Icons-> npm i @chakra-ui/icons
+3. For axios-> npm i axios
+4. For moment-> npm i moment
+5. For React Router Dom-> npm i react-router-dom   (I have installed earlier but there is no need to install it).
+6. For React Icons-> npm i react-icons
 
-In the project directory, you can run:
-
-### `npm start`
-
+Now, after installing all of them, restart the react application with ### `npm start`.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Brief description of the approach and technologies used.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. I used React.js for making the frontend of the website and OpenWeatherMap wesbite for getting API_KEY for fetching the weather data.
+2. I first designed the functions and methods for fetching the weather data with the help of API.
+3. Then, I created the design to display that data.
+4. I have also used Chakra Toast to handle the errors and to show notifications.
