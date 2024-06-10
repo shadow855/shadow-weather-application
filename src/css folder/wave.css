@@ -1,0 +1,42 @@
+/* wave.css or fog.css */
+@keyframes pinkFog {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.foggy-text {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 30, 30, 0) 0%,
+    rgba(255, 255, 255, 0.829) 50%,
+    rgba(255, 30, 30, 0) 100%
+  );
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: pinkFog 5s linear infinite;
+  font-weight: bold;
+}
+
+.light-text {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 8, 8, 0.829) 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.829) 100%
+  );
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: pinkFog 5s linear infinite;
+  font-weight: bold;
+}
