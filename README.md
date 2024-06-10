@@ -1,7 +1,7 @@
 # Instructions on how to run the application locally.
 Live Link of the Application-> https://shadow-weather-application.onrender.com
 
-Just pull the repository with git and open the code on VS Code and run the code with ### `npm start`.
+Just pull the repository with git and open the code on VS Code and run the code with `npm start`.
 
 ## In case of some error (May be some installed packages won't work, so you need to reinstall them)
 1. For Chakra UI-> npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
@@ -11,7 +11,7 @@ Just pull the repository with git and open the code on VS Code and run the code 
 5. For React Router Dom-> npm i react-router-dom   (I have installed earlier but there is no need to install it).
 6. For React Icons-> npm i react-icons
 
-Now, after installing all of them, restart the react application with ### `npm start`.
+Now, after installing all of them, restart the react application with `npm start`.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
