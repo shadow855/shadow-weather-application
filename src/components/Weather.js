@@ -37,6 +37,17 @@ const Weather = () => {
 
     // Function to fetch weather data by location
     const getWeatherByLocation = async (location) => {
+        // Check if weather data for the location already exists
+        if (locations.includes(location)) {
+            toast({
+                title: `Weather data for ${location} is already fetched.`,
+                status: 'warning',
+                duration: 5000,
+                isClosable: true,
+                position: 'bottom',
+            });
+            return;
+        }
         const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${API_KEY}&units=metric`;
 
         try {
